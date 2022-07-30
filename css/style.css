@@ -30,6 +30,14 @@ p {
     "footer";
 }
 
+.header .logo img {
+  transition: all 0.3s;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
 header {
   text-align: center;
   grid-area: header;
